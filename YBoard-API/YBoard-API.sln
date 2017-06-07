@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YBoardAPI.Interface", "YBoardAPI.Interface\YBoardAPI.Interface.csproj", "{671339C8-951D-437F-8996-7B6D921DFFB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YBoardAPI.Data", "YBoardAPI.Data\YBoardAPI.Data.csproj", "{B323BBFD-30D0-4F91-A2EF-F4AE719F99EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YBoardAPI.Model", "YBoardAPI.Model\YBoardAPI.Model.csproj", "{4B0238DC-A822-4668-9681-FAEBF8B3D4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YBoardAPI.Service", "YBoardAPI.Service\YBoardAPI.Service.csproj", "{68A6C1A7-4730-4AF7-9511-F1A04196418A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B0238DC-A822-4668-9681-FAEBF8B3D4C4} = {4B0238DC-A822-4668-9681-FAEBF8B3D4C4}
+		{B323BBFD-30D0-4F91-A2EF-F4AE719F99EB} = {B323BBFD-30D0-4F91-A2EF-F4AE719F99EB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,10 @@ Global
 		{4B0238DC-A822-4668-9681-FAEBF8B3D4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0238DC-A822-4668-9681-FAEBF8B3D4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0238DC-A822-4668-9681-FAEBF8B3D4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A6C1A7-4730-4AF7-9511-F1A04196418A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A6C1A7-4730-4AF7-9511-F1A04196418A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A6C1A7-4730-4AF7-9511-F1A04196418A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A6C1A7-4730-4AF7-9511-F1A04196418A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
